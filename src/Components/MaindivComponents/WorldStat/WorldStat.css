@@ -1,0 +1,29 @@
+.worldstat{
+    margin: -50px 40px 10px 10px;
+    
+}
+.table{
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #252525;
+    background-color: rgba(75, 192, 192, 0.2);
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 53px 10px rgba(0, 0, 0, 0.2); */
+}
+.table tr{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.table td{
+    padding: 0.4rem 0.5rem;
+    margin: 1px;
+    border: none;
+}
+

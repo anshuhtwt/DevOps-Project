@@ -1,0 +1,20 @@
+.symptoms{
+    padding: 50px 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: #6263ff;
+    box-shadow: 12px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.symptoms__content{
+    margin: 30px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 990px){
+    .card{
+        margin: 20px
+    }
+}

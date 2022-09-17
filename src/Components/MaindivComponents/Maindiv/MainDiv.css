@@ -1,0 +1,74 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 253, 253);
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    width: 90%;
+    padding: 50px;
+    margin-left: 100px;
+}
+.upper_container{
+    display: flex; 
+    justify-content: space-between;
+    margin: -20px 10px -20px 10px;
+}
+.select .MuiSelect-root{
+    font-weight:"900";
+    font-size:"18px"
+}
+.stat__card{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+.infocard{
+    margin: 20px;
+}
+.stat__container{
+    justify-content: space-between;
+    margin: 2px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+.stat__map{
+    
+    display: flex;
+    direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.states_data{
+    background-color: white;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    
+}
+.map{
+    background: rgba(54, 162, 235, 0.2);
+    margin-bottom: "50px";
+    box-shadow: 12px 12px 18px -6px rgba(0, 0, 0, 0.3);
+
+}
+.bar_graph{
+    background-color: white;
+    margin: 40px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 990px) {
+    .stat__map{
+        direction: column;
+        flex-wrap: wrap;
+    }
+    .maindiv{
+        flex-wrap: wrap;
+    }
+    .upper_container{
+        flex-direction: row;   
+    }
+}
