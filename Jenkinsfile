@@ -13,12 +13,6 @@ pipeline {
       }
     }
 
-    stage('build') {
-      steps {
-        sh 'docker build -t covidi .'
-      }
-    }
-
     stage('login to docker hub') {
       environment {
         DOCKERHUB_USER = 'anshustwt'
@@ -26,6 +20,12 @@ pipeline {
       }
       steps {
         sh 'docker login -u $DOCKERHUB_USER -p DOCKERHUB_PASSWORD'
+      }
+    }
+
+    stage('build ') {
+      steps {
+        sh 'docker build -t covidi .'
       }
     }
 
