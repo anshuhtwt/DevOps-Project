@@ -13,9 +13,9 @@ pipeline {
       }
     }
 
-    stage('frontend unit test') {
+    stage('build') {
       steps {
-        sh 'npm i && npm run test:unit'
+        sh 'docker build -t covidi .'
       }
     }
 
