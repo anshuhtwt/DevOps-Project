@@ -15,7 +15,7 @@ pipeline {
 
     stage('frontend unit test') {
       steps {
-        sh 'cd DevOps-Project && npm i && npm run test:unit'
+        sh 'npm i && npm run test:unit'
       }
     }
 
