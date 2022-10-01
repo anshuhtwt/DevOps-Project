@@ -1,5 +1,5 @@
 FROM node
-WORKDIR /covid-tracker
+WORKDIR /DevOps-Project
 COPY ./*.json .
 RUN npm install
 RUN yarn add docusaurus --latest
