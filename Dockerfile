@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /DevOps-Project
-COPY ./*.json .
+COPY ./package.json /DevOps-Project
 RUN npm install
 RUN yarn add docusaurus --latest
 #RUN npm audit fix --force
